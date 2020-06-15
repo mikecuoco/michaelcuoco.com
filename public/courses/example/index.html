@@ -30,7 +30,7 @@
   <meta name="description" content="Learn how to use Academic&#39;s docs layout for publishing online courses, software documentation, and tutorials.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/courses/example/">
+  <link rel="alternate" hreflang="en-us" href="../../courses/example/">
 
   
 
@@ -61,10 +61,8 @@
     
       
       
-        
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
       
     
 
@@ -198,13 +196,51 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.css">
+  <link rel="stylesheet" href="../../css/academic.css">
 
   
 
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169302709-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-169302709-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -212,14 +248,14 @@
   
 
   
-  <link rel="alternate" href="/courses/example/index.xml" type="application/rss+xml" title="Academic">
+  <link rel="alternate" href="../../courses/example/index.xml" type="application/rss+xml" title="Mike Cuoco">
   
 
-  <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="manifest" href="../../index.webmanifest">
+  <link rel="icon" type="image/png" href="../../images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_box_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="../../images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_box_center_2.png">
 
-  <link rel="canonical" href="/courses/example/">
+  <link rel="canonical" href="../../courses/example/">
 
   
   
@@ -234,11 +270,11 @@
   
   <meta property="twitter:card" content="summary">
   
-  <meta property="og:site_name" content="Academic">
+  <meta property="og:site_name" content="Mike Cuoco">
   <meta property="og:url" content="/courses/example/">
-  <meta property="og:title" content="Overview | Academic">
-  <meta property="og:description" content="Learn how to use Academic&#39;s docs layout for publishing online courses, software documentation, and tutorials."><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:title" content="Overview | Mike Cuoco">
+  <meta property="og:description" content="Learn how to use Academic&#39;s docs layout for publishing online courses, software documentation, and tutorials."><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_box_center_2.png">
+  <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_box_center_2.png"><meta property="og:locale" content="en-us">
   
     <meta property="og:updated_time" content="2018-09-09T00:00:00&#43;00:00">
   
@@ -257,7 +293,7 @@
 
 
 
-  <title>Overview | Academic</title>
+  <title>Overview | Mike Cuoco</title>
 
 </head>
 
@@ -308,7 +344,7 @@
 
     
     <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/">Academic</a>
+      <a class="navbar-brand" href="../../">Mike Cuoco</a>
     </div>
     
 
@@ -321,7 +357,7 @@
 
     
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">Academic</a>
+      <a class="navbar-brand" href="../../">Mike Cuoco</a>
     </div>
     
 
@@ -356,7 +392,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#hero"><span>Demo</span></a>
+          <a class="nav-link " href="../../#hero"><span>Demo</span></a>
         </li>
 
         
@@ -385,7 +421,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          <a class="nav-link " href="../../#posts"><span>Posts</span></a>
         </li>
 
         
@@ -414,7 +450,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          <a class="nav-link " href="../../#projects"><span>Projects</span></a>
         </li>
 
         
@@ -443,7 +479,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          <a class="nav-link " href="../../#featured"><span>Publications</span></a>
         </li>
 
         
@@ -465,7 +501,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link  active" href="/courses/"><span>Courses</span></a>
+          <a class="nav-link  active" href="../../courses/"><span>Courses</span></a>
         </li>
 
         
@@ -494,7 +530,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          <a class="nav-link " href="../../#contact"><span>Contact</span></a>
         </li>
 
         
@@ -576,20 +612,20 @@
   
   
   <div class="docs-toc-item active">
-    <a class="docs-toc-link" href="/courses/example/">Overview</a>
+    <a class="docs-toc-link" href="../../courses/example/">Overview</a>
 
   </div>
   
   <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/courses/example/example1/">Example Topic</a>
+    <a class="docs-toc-link" href="../../courses/example/example1/">Example Topic</a>
     <ul class="nav docs-sidenav">
       
       <li >
-        <a href="/courses/example/example1/">Tips 1-2</a>
+        <a href="../../courses/example/example1/">Tips 1-2</a>
       </li>
       
       <li >
-        <a href="/courses/example/example2/">Tips 3-4</a>
+        <a href="../../courses/example/example2/">Tips 3-4</a>
       </li>
       
     </ul>
@@ -642,18 +678,16 @@
 <h2 id="update-site-menu">Update site menu</h2>
 <p>After renaming or deleting the <code>courses</code> folder, you may wish to update any <code>[[main]]</code> menu links to it by editing your menu configuration at <code>config/_default/menus.toml</code>.</p>
 <p>For example, if you delete this folder, you can remove the following from your menu configuration:</p>
-<pre><code class="language-toml">[[main]]
-  name = &quot;Courses&quot;
-  url = &quot;courses/&quot;
-  weight = 50
-</code></pre>
-<p>Or, if you are creating a software documentation site, you can rename the <code>courses</code> folder to <code>docs</code> and update the associated <em>Courses</em> menu configuration to:</p>
-<pre><code class="language-toml">[[main]]
-  name = &quot;Docs&quot;
-  url = &quot;docs/&quot;
-  weight = 50
-</code></pre>
-<h2 id="update-the-docs-menu">Update the docs menu</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">[[<span style="color:#a6e22e">main</span>]]
+  <span style="color:#a6e22e">name</span> = <span style="color:#e6db74">&#34;Courses&#34;</span>
+  <span style="color:#a6e22e">url</span> = <span style="color:#e6db74">&#34;courses/&#34;</span>
+  <span style="color:#a6e22e">weight</span> = <span style="color:#ae81ff">50</span>
+</code></pre></div><p>Or, if you are creating a software documentation site, you can rename the <code>courses</code> folder to <code>docs</code> and update the associated <em>Courses</em> menu configuration to:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">[[<span style="color:#a6e22e">main</span>]]
+  <span style="color:#a6e22e">name</span> = <span style="color:#e6db74">&#34;Docs&#34;</span>
+  <span style="color:#a6e22e">url</span> = <span style="color:#e6db74">&#34;docs/&#34;</span>
+  <span style="color:#a6e22e">weight</span> = <span style="color:#ae81ff">50</span>
+</code></pre></div><h2 id="update-the-docs-menu">Update the docs menu</h2>
 <p>If you use the <em>docs</em> layout, note that the name of the menu in the front matter should be in the form <code>[menu.X]</code> where <code>X</code> is the folder name. Hence, if you rename the <code>courses/example/</code> folder, you should also rename the menu definitions in the front matter of files within <code>courses/example/</code> from <code>[menu.example]</code> to <code>[menu.&lt;NewFolderName&gt;]</code>.</p>
 
           </div>
@@ -715,11 +749,11 @@
   
   <p class="powered-by">
     
-      <a href="/privacy/">Privacy Policy</a>
+      <a href="../../privacy/">Privacy Policy</a>
     
     
        &middot; 
-      <a href="/terms/">Terms</a>
+      <a href="../../terms/">Terms</a>
     
   </p>
   
@@ -859,7 +893,7 @@
     
     
     
-    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+    <script src="../../js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
 
     
 

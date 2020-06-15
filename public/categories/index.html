@@ -30,7 +30,7 @@
   <meta name="description" content="Professor of Artificial Intelligence">
 
   
-  <link rel="alternate" hreflang="en-us" href="/categories/">
+  <link rel="alternate" hreflang="en-us" href="../categories/">
 
   
 
@@ -61,10 +61,8 @@
     
       
       
-        
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
       
     
 
@@ -198,13 +196,51 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.css">
+  <link rel="stylesheet" href="../css/academic.css">
 
   
 
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169302709-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-169302709-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -212,14 +248,14 @@
   
 
   
-  <link rel="alternate" href="/categories/index.xml" type="application/rss+xml" title="Academic">
+  <link rel="alternate" href="../categories/index.xml" type="application/rss+xml" title="Mike Cuoco">
   
 
-  <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="manifest" href="../index.webmanifest">
+  <link rel="icon" type="image/png" href="../images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_box_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="../images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_box_center_2.png">
 
-  <link rel="canonical" href="/categories/">
+  <link rel="canonical" href="../categories/">
 
   
   
@@ -234,11 +270,11 @@
   
   <meta property="twitter:card" content="summary">
   
-  <meta property="og:site_name" content="Academic">
+  <meta property="og:site_name" content="Mike Cuoco">
   <meta property="og:url" content="/categories/">
-  <meta property="og:title" content="Categories | Academic">
-  <meta property="og:description" content="Professor of Artificial Intelligence"><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:title" content="Categories | Mike Cuoco">
+  <meta property="og:description" content="Professor of Artificial Intelligence"><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_box_center_2.png">
+  <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_box_center_2.png"><meta property="og:locale" content="en-us">
   
     <meta property="og:updated_time" content="2016-04-20T00:00:00&#43;00:00">
   
@@ -257,7 +293,7 @@
 
 
 
-  <title>Categories | Academic</title>
+  <title>Categories | Mike Cuoco</title>
 
 </head>
 
@@ -308,7 +344,7 @@
 
     
     <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/">Academic</a>
+      <a class="navbar-brand" href="../">Mike Cuoco</a>
     </div>
     
 
@@ -321,7 +357,7 @@
 
     
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">Academic</a>
+      <a class="navbar-brand" href="../">Mike Cuoco</a>
     </div>
     
 
@@ -356,7 +392,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#hero"><span>Demo</span></a>
+          <a class="nav-link " href="../#hero"><span>Demo</span></a>
         </li>
 
         
@@ -385,7 +421,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          <a class="nav-link " href="../#posts"><span>Posts</span></a>
         </li>
 
         
@@ -414,7 +450,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          <a class="nav-link " href="../#projects"><span>Projects</span></a>
         </li>
 
         
@@ -443,7 +479,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          <a class="nav-link " href="../#featured"><span>Publications</span></a>
         </li>
 
         
@@ -465,7 +501,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/courses/"><span>Courses</span></a>
+          <a class="nav-link " href="../courses/"><span>Courses</span></a>
         </li>
 
         
@@ -494,7 +530,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          <a class="nav-link " href="../#contact"><span>Contact</span></a>
         </li>
 
         
@@ -579,7 +615,7 @@
     
     
     <div>
-      <h2><a href="/category/demo/" >Demo</a></h2>
+      <h2><a href="../categories/demo/" >Demo</a></h2>
       <div class="article-style">
         
       </div>
@@ -589,7 +625,7 @@
     
     
     <div>
-      <h2><a href="/category/%E6%95%99%E7%A8%8B/" >教程</a></h2>
+      <h2><a href="../categories/%E6%95%99%E7%A8%8B/" >教程</a></h2>
       <div class="article-style">
         
       </div>
@@ -599,7 +635,7 @@
     
     
     <div>
-      <h2><a href="/category/r/" >R</a></h2>
+      <h2><a href="../categories/r/" >R</a></h2>
       <div class="article-style">
         
       </div>
@@ -713,7 +749,7 @@
     
     
     
-    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+    <script src="../js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
 
     
 
@@ -729,11 +765,11 @@
   
   <p class="powered-by">
     
-      <a href="/privacy/">Privacy Policy</a>
+      <a href="../privacy/">Privacy Policy</a>
     
     
        &middot; 
-      <a href="/terms/">Terms</a>
+      <a href="../terms/">Terms</a>
     
   </p>
   
