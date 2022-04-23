@@ -31,7 +31,7 @@ jobs:
           
       - name: Render Rmarkdown
         run: |
-          Rscipt -e "rmarkdown::render('index.Rmd')"
+          Rscript -e "rmarkdown::render('index.Rmd')"
 
       - name: Commit results
         run: |
