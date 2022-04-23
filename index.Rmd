@@ -1,0 +1,22 @@
+---
+title: "Michael S. Cuoco"
+image: "headshot.jpeg"
+links:
+  - label: Twitter
+    url: "https://twitter.com/cuoco_michael"
+  - label: GitHub
+    url: "https://github.com/mikecuoco"
+  - label: Email
+    url: "mailto:mcuoco@ucsd.edu"
+  - label: Curriculum Vitae
+    url: "cv.pdf"
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/michaelcuoco/"
+output:
+  postcards::jolla
+---
+ 
+I am a PhD student in [Bioinformatics and Systems Biology at UC San Diego](https://bioinformatics.ucsd.edu/) 
+where I am studying the activity LINE-1 and other retrotransposons in the human brain 
+with professors [Rusty Gage](https://www.salk.edu/scientist/rusty-gage/) and [Eran Mukamel](https://cogsci.ucsd.edu/people/faculty/eran-mukamel.html).
+
