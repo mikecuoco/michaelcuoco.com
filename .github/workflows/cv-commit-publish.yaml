@@ -37,7 +37,7 @@ jobs:
 
       - name: Grab CV
         run: |
-          curl https://github.com/mikecuoco/curriculum-vitae/raw/master/main.pdf > cv.pdf
+          wget https://github.com/mikecuoco/curriculum-vitae/raw/master/main.pdf && mv main.pdf cv.pdf
           
       - name: Render Rmarkdown
         run: |
