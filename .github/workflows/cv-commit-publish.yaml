@@ -26,11 +26,11 @@ jobs:
           cache-version: 2
 
       - name: Grab CV
-      - run: |
+        run: |
           curl https://github.com/mikecuoco/curriculum-vitae/raw/master/main.pdf > cv.pdf
           
       - name: Render Rmarkdown
-      - run: |
+        run: |
           Rscipt -e "rmarkdown::render('index.Rmd')"
 
       - name: Commit results
