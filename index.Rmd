@@ -17,6 +17,6 @@ output:
 ---
  
 I am a PhD student in [Bioinformatics and Systems Biology at UC San Diego](https://bioinformatics.ucsd.edu/) 
-where I am studying the activity of LINE-1 and other retrotransposons in the human brain 
+where I am studying the activity of LINE-1 retrotransposons in the human brain 
 with Professors [Rusty Gage](https://www.salk.edu/scientist/rusty-gage/) and [Eran Mukamel](https://cogsci.ucsd.edu/people/faculty/eran-mukamel.html).
 
