@@ -1,6 +1,6 @@
 ---
 title: "Michael S. Cuoco"
-image: "headshot.jpeg"
+image: "headshot.jpg"
 links:
   - label: Curriculum Vitae
     url: "cv.pdf"
