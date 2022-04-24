@@ -4,8 +4,8 @@ name: cv-commit-publish
 on:
   push:
     branches: [main, master]
-  schedule:
-    - cron: "0 0 * * 0"
+  repository_dispatch:
+    types: [build-cv]
 
 jobs:
   cv-commit-publish:
