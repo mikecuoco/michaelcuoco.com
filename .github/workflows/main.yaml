@@ -1,6 +1,6 @@
 # Workflow derived from https://github.com/r-lib/actions/tree/master/examples
 # Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help
-name: cv-commit-publish
+name: Update CV, Build, Deploy
 on:
   push:
     branches: [main, master]
@@ -8,7 +8,7 @@ on:
     types: [build-cv]
 
 jobs:
-  cv-commit-publish:
+  UpdateCV-Build:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
@@ -26,9 +26,7 @@ jobs:
         uses: r-lib/actions/setup-r@v2
 
       - name: Setup Pandoc
-        uses: r-lib/actions/setup-pandoc@v1
-        with:
-          pandoc-version: '2.13' # The pandoc version to download (if necessary) and use.
+        uses: r-lib/actions/setup-pandoc@v2
       - run: echo "# Test" | pandoc -t html
       
       - name: Setup TinyTex 
@@ -55,3 +53,22 @@ jobs:
           git add cv.pdf index.html || echo "No changes to add"
           git commit -m 'Add updated CV to website' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
+  Deploy:
+    needs:
+      - UpdateCV-Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v1.2
+        with:
+          publish-dir: './dist'
+          production-branch: master
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          deploy-message: "Deploy from GitHub Actions"
+          enable-pull-request-comment: false
+          enable-commit-comment: false
+          overwrites-pull-request-comment: true
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        timeout-minutes: 1
