@@ -58,6 +58,7 @@ jobs:
       - UpdateCV-Build
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v1.2
         with:
