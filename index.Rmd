@@ -2,21 +2,40 @@
 title: "Michael Cuoco"
 image: "headshot.jpg"
 links:
-  - label: Curriculum Vitae
+  - label: CV `r fontawesome::fa("file-pdf", fill = "black")`
     url: "cv.pdf"
-  - label: Email
+  - label: Email `r fontawesome::fa("paper-plane", fill = "black")`
     url: "mailto:mcuoco@ucsd.edu"
-  - label: Twitter
+  - label: Twitter `r fontawesome::fa("twitter", fill = "black")`
     url: "https://twitter.com/cuoco_michael"
-  - label: GitHub
+  - label: GitHub `r fontawesome::fa("github", fill = "black")`
     url: "https://github.com/mikecuoco"
-  - label: LinkedIn
-    url: "https://www.linkedin.com/in/michaelcuoco/"
+  - label: Google Scholar `r fontawesome::fa("graduation-cap", fill = "black")`
+    url: "https://scholar.google.com/citations?user=8aKD8FoAAAAJ&hl=en"
+  # - label: LinkedIn `r fontawesome::fa("linkedin", fill = "black")`
+  #   url: "https://www.linkedin.com/in/michaelcuoco/"
 output:
-  postcards::jolla
+  postcards::trestles
 ---
  
-I am a PhD student in [Bioinformatics and Systems Biology at UC San Diego](https://bioinformatics.ucsd.edu/) 
-where I am studying the activity of LINE-1 retrotransposons in the human brain 
-with Professors [Rusty Gage](https://www.salk.edu/scientist/rusty-gage/) and [Eran Mukamel](https://cogsci.ucsd.edu/people/faculty/eran-mukamel.html).
+I am a PhD student at UC San Diego where I am studying the activity of LINE-1 retrotransposons in the mammalian brain.
 
+I am passionate about improving undergraduate research education and 
+addressing issues of diversity, equity and inclusion in STEM.
+
+In my free time, I love to surf, swim, bike, hike and ski `r emo::ji('skier')`.
+
+## Education
+
+**University of California, San Diego** | La Jolla, California 
+
+- Ph.D. in Bioinformatics and Systems Biology | 2020 - present
+- Advised by Rusty Gage and Eran Mukamel
+
+**Trinity College** | Hartford, Connecticut
+
+- B.S. in Molecular and Cellular Biology | 2012 - 2016
+
+## Experience
+
+## Selected Publications
