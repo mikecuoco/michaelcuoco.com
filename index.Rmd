@@ -1,5 +1,5 @@
 ---
-title: "Michael Cuoco"
+title: "Michael S. Cuoco"
 image: "headshot.jpg"
 links:
   - label: CV `r fontawesome::fa("file-pdf", fill = "black")`
@@ -15,12 +15,20 @@ links:
   # - label: LinkedIn `r fontawesome::fa("linkedin", fill = "black")`
   #   url: "https://www.linkedin.com/in/michaelcuoco/"
 output:
-  postcards::trestles
+  postcards::solana
 ---
  
-I am a PhD candidate in Bioinformatics and Systems Biology at UC San Diego, where I am developing computational genomics methods to study the activity of LINE-1 retrotransposons in the mammalian brain.
+## Bio
 
-My interests span genetics, cellular and molecular biology, machine learning, and bioinformatics algorithms. I am passionate about scientific rigor, reproducbility, and discovery.
+I am a PhD Candidate in the Bioinformatics and Systems Biology Graduate Program at UC San Diego and a National Science Foundation Graduate Research Fellow. 
+After spending 5 years studying cancer drug resistance in the wet lab, 
+I have pivoted to neuroscience and bioinformatics where I am developing methods in computational genomics 
+to study the activity of retrotransposons in the mammalian brain. 
+
+I enjoy working in collaborative, interdiscipliniary research groups to conceive and pursue research questions. 
+I am also very passionate about taking reproducible, rigorous, and data-driven approaches to scientific discovery.
+
+In my free time, I like to hike `r emo::ji("mountain")`, swim `r emo::ji("swimmer")`, and play tennis `r emo::ji("racquet")` all over San Diego County!
 
 ## Education
 
@@ -33,40 +41,52 @@ B.S. in Molecular and Cellular Biology | 2012 - 2016
 
 ## Experience
 
+Graduate Student Researcher | 2021 – present \
+Gage Lab, Salk Institute | Mukamel Lab, UC San Diego \
+La Jolla, California
+
 Research Associate | 2016 – 2020 \
-Regev Lab, Broad Institute Cambridge, Massachusetts \
-Mentors: Aviv Regev, Benjamin Izar, Pratiksha Thakore, Yaara Oren
+Regev Lab, Broad Institute of MIT and Harvard \
+Cambridge, Massachusetts 
 
 Undergraduate Researcher | 2014 – 2016 \
-Meyerson Lab, Dana-Farber Cancer Institute Boston, Massachusetts \
-Mentors: Matthew Meyerson and Alison Taylor
+Meyerson Lab, Dana-Farber Cancer Institute \
+Boston, Massachusetts 
     
 Undergraduate Researcher | 2013 \
-Trinity College Hartford, Connecticut \
 HHMI Science Education Alliance-Phage Hunters Advancing Genomics
-and Evolutionary Science program ([SEA-PHAGES](https://seaphages.org/)).
+and Evolutionary Science (SEA-PHAGES) program \
+Trinity College - Hartford, Connecticut 
 
 ## Select Publications
 
 Otto, J. E., Ursu, O., Wu, A. P., Winter, E. B., **Cuoco, M. S.**, Ma, S., Qian, K., Michel, B. C., Buenrostro,
 J. D., Berger, B., Regev, A., Kadoch, C., “Structural and functional properties of mSWI/SNF chromatin
 remodeling complexes revealed through single-cell perturbation screens.” *Molecular cell* 83 (8 Apr. 2023).
-doi: 10.1016/j.molcel.2023.03.013.
-  
+doi: [10.1016/j.molcel.2023.03.013](https://doi.org/10.1016/j.molcel.2023.03.013).
+
+Li, J., Pinto-Duarte, A., Zander, M., **Cuoco, M. S.**, Lai, C.-Y., Osteen, J., Fang, L., Luo, C., Lucero, J. D.,
+Gomez-Castanon, R., Nery, J. R., Silva-Garcia, I., Pang, Y., Sejnowski, T. J., Powell, S. B., Ecker, J. R.,
+Mukamel, E. A., Behrens, M. M., “Dnmt3a knockout in excitatory neurons impairs postnatal synapse mat-
+uration and increases the repressive histone modification H3K27me3.” *eLife* 11 (May 24, 2022). doi:
+[10.7554/eLife.66909](https://doi.org/10.7554/eLife.66909).
+
 He, M. X., **Cuoco, M. S.**, Crowdis, J., Bosma-Moody, A., Zhang, Z., Bi, K., Kanodia, A., Su, M.-J., Ku, S.-Y.,
 Garcia, M. M., Sweet, A. R., Rodman, C., DelloStritto, L., Silver, R., Steinharter, J., Shah, P., Izar, B.,
 Walk, N. C., Burke, K. P., Bakouny, Z., Tewari, A. K., Liu, D., Camp, S. Y., Vokes, N. I., Salari, K., Park,
 J., Vigneau, S., Fong, L., Russo, J. W., Yuan, X., Balk, S. P., Beltran, H., Rozenblatt-Rosen, O., Regev,
 A., Rotem, A., Taplin, M.-E., Allen, E. M. V., “Transcriptional mediators of treatment resistance in lethal
-prostate cancer.” *Nature medicine* 27 (3 Mar. 2021). doi: 10.1038/s41591-021-01244-6.
+prostate cancer.” *Nature medicine* 27 (3 Mar. 2021). doi: [10.1038/s41591-021-01244-6](https://doi.org/10.1038/s41591-021-01244-6).
 
 Oren, Y., Tsabar, M., **Cuoco, M. S.**, Amir-Zilberstein, L., Cabanos, H. F., H ̈utter, J.-C., Hu, B., Thakore, P. I.,
 Tabaka, M., Fulco, C. P., Colgan, W., Cuevas, B. M., Hurvitz, S. A., Slamon, D. J., Deik, A., Pierce, K. A.,
 Clish, C., Hata, A. N., Zaganjor, E., Lahav, G., Politi, K., Brugge, J. S., Regev, A., “Cycling cancer persister
-cells arise from lineages with distinct programs.” *Nature* 596 (7873 Aug. 13, 2021). doi: 10.1038/s41586-
-021-03796-6.
+cells arise from lineages with distinct programs.” *Nature* 596 (7873 Aug. 13, 2021). doi: [10.1038/s41586-
+021-03796-6](https://doi.org/10.1038/s41586-021-03796-6).
 
 Nayar, U., Cohen, O., Kapstad, C., **Cuoco, M. S.**, Waks, A. G., Wander, S. A., Painter, C., Freeman, S., Persky,
 N. S., Marini, L., Helvie, K., Oliver, N., Rozenblatt-Rosen, O., Ma, C. X., Regev, A., Winer, E. P., Lin,
 N. U., Wagle, N., “Acquired HER2 mutations in ER+ metastatic breast cancer confer resistance to estrogen
-receptor-directed therapies.” *Nature genetics* 51 (2 Dec. 12, 2018). doi: 10.1038/s41588-018-0287-5.
+receptor-directed therapies.” *Nature genetics* 51 (2 Dec. 12, 2018). doi: [10.1038/s41588-018-0287-5](https://doi.org/10.1038/s41588-018-0287-5).
+
+See a complete and up-to-date list on [my CV](./cv.pdf)!
