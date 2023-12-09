@@ -19,7 +19,6 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"REditorSupport.r",
 				"tomoki1207.pdf",
 				"GitHub.copilot",
 				"george-alisson.html-preview-vscode"
