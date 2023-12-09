@@ -13,7 +13,7 @@
 	// "forwardPorts": [],
 	
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "R -q -e 'renv::restore()'",
+	// "postCreateCommand": "R -q -e 'renv::restore()'", // unnecessary if using renv-cache feature, only need to run once on full build
 
 	// Configure tool-specific properties.
 	"customizations": {
