@@ -18,24 +18,55 @@ output:
   postcards::trestles
 ---
  
-I am a PhD student at UC San Diego where I am studying the activity of LINE-1 retrotransposons in the mammalian brain.
+I am a PhD candidate in Bioinformatics and Systems Biology at UC San Diego, where I am developing computational genomics methods to study the activity of LINE-1 retrotransposons in the mammalian brain.
 
-I am passionate about improving undergraduate research education and 
-addressing issues of diversity, equity and inclusion in STEM.
-
-In my free time, I love to surf, swim, bike, hike and ski `r emo::ji('skier')`.
+My interests span genetics, cellular and molecular biology, machine learning, and bioinformatics algorithms. I am passionate about scientific rigor, reproducbility, and discovery.
 
 ## Education
 
-**University of California, San Diego** | La Jolla, California 
+**University of California, San Diego** | La Jolla, California \
+Ph.D. in Bioinformatics and Systems Biology | 2020 - present \
+Advised by Rusty Gage and Eran Mukamel
 
-- Ph.D. in Bioinformatics and Systems Biology | 2020 - present
-- Advised by Rusty Gage and Eran Mukamel
-
-**Trinity College** | Hartford, Connecticut
-
-- B.S. in Molecular and Cellular Biology | 2012 - 2016
+**Trinity College** | Hartford, Connecticut \
+B.S. in Molecular and Cellular Biology | 2012 - 2016
 
 ## Experience
 
-## Selected Publications
+Research Associate | 2016 – 2020 \
+Regev Lab, Broad Institute Cambridge, Massachusetts \
+Mentors: Aviv Regev, Benjamin Izar, Pratiksha Thakore, Yaara Oren
+
+Undergraduate Researcher | 2014 – 2016 \
+Meyerson Lab, Dana-Farber Cancer Institute Boston, Massachusetts \
+Mentors: Matthew Meyerson and Alison Taylor
+    
+Undergraduate Researcher | 2013 \
+Trinity College Hartford, Connecticut \
+HHMI Science Education Alliance-Phage Hunters Advancing Genomics
+and Evolutionary Science program ([SEA-PHAGES](https://seaphages.org/)).
+
+## Select Publications
+
+Otto, J. E., Ursu, O., Wu, A. P., Winter, E. B., **Cuoco, M. S.**, Ma, S., Qian, K., Michel, B. C., Buenrostro,
+J. D., Berger, B., Regev, A., Kadoch, C., “Structural and functional properties of mSWI/SNF chromatin
+remodeling complexes revealed through single-cell perturbation screens.” *Molecular cell* 83 (8 Apr. 2023).
+doi: 10.1016/j.molcel.2023.03.013.
+  
+He, M. X., **Cuoco, M. S.**, Crowdis, J., Bosma-Moody, A., Zhang, Z., Bi, K., Kanodia, A., Su, M.-J., Ku, S.-Y.,
+Garcia, M. M., Sweet, A. R., Rodman, C., DelloStritto, L., Silver, R., Steinharter, J., Shah, P., Izar, B.,
+Walk, N. C., Burke, K. P., Bakouny, Z., Tewari, A. K., Liu, D., Camp, S. Y., Vokes, N. I., Salari, K., Park,
+J., Vigneau, S., Fong, L., Russo, J. W., Yuan, X., Balk, S. P., Beltran, H., Rozenblatt-Rosen, O., Regev,
+A., Rotem, A., Taplin, M.-E., Allen, E. M. V., “Transcriptional mediators of treatment resistance in lethal
+prostate cancer.” *Nature medicine* 27 (3 Mar. 2021). doi: 10.1038/s41591-021-01244-6.
+
+Oren, Y., Tsabar, M., **Cuoco, M. S.**, Amir-Zilberstein, L., Cabanos, H. F., H ̈utter, J.-C., Hu, B., Thakore, P. I.,
+Tabaka, M., Fulco, C. P., Colgan, W., Cuevas, B. M., Hurvitz, S. A., Slamon, D. J., Deik, A., Pierce, K. A.,
+Clish, C., Hata, A. N., Zaganjor, E., Lahav, G., Politi, K., Brugge, J. S., Regev, A., “Cycling cancer persister
+cells arise from lineages with distinct programs.” *Nature* 596 (7873 Aug. 13, 2021). doi: 10.1038/s41586-
+021-03796-6.
+
+Nayar, U., Cohen, O., Kapstad, C., **Cuoco, M. S.**, Waks, A. G., Wander, S. A., Painter, C., Freeman, S., Persky,
+N. S., Marini, L., Helvie, K., Oliver, N., Rozenblatt-Rosen, O., Ma, C. X., Regev, A., Winer, E. P., Lin,
+N. U., Wagle, N., “Acquired HER2 mutations in ER+ metastatic breast cancer confer resistance to estrogen
+receptor-directed therapies.” *Nature genetics* 51 (2 Dec. 12, 2018). doi: 10.1038/s41588-018-0287-5.
