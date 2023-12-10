@@ -8,7 +8,7 @@ on:
     types: [build-cv]
 
 jobs:
-  UpdateCV-Build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
@@ -53,12 +53,7 @@ jobs:
           git add cv.pdf index.html || echo "No changes to add"
           git commit -m 'Add updated CV to website' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
-  Deploy:
-    needs:
-      - UpdateCV-Build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
+
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v1.2
         with:
