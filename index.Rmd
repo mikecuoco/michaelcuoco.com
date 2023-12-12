@@ -21,9 +21,9 @@ output:
 ## Bio
 
 I am a PhD Candidate in the Bioinformatics and Systems Biology Graduate Program at UC San Diego and a National Science Foundation Graduate Research Fellow. 
-After spending 5 years studying cancer drug resistance in the wet lab, 
-I have pivoted to neuroscience and bioinformatics where I am developing methods in computational genomics 
-to study the activity of retrotransposons in the mammalian brain. 
+Before grad school, I spent ~5 years studying cancer drug resistance, where I worked primarily in the wet lab using genomics and CRISPR-based methods. 
+Following my interest in somatic mutation outside of cancer, I have pivoted to neuroscience and bioinformatics
+where I am developing methods in computational genomics to study the activity of retrotransposons in the mammalian brain. 
 
 I enjoy working in collaborative, interdiscipliniary research groups to conceive and pursue research questions. 
 I am also very passionate about taking reproducible, rigorous, and data-driven approaches to scientific discovery.
